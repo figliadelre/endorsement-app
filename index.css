@@ -1,0 +1,108 @@
+html, body {
+    margin: auto;
+    padding: 0;
+    background-color: #1B1924;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    max-width: 320px;
+}
+
+textarea, input:focus {
+    outline: none;
+}
+
+#header-img {
+    width: 90px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 8px
+}
+
+h2 {
+    font-size: 20px;
+    margin: 8px;
+}
+
+#publish-btn {
+    width: 317px;
+    height: 61px;
+    background-color: #28A9F1;
+    color: #04131C;
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#publish-btn:hover {
+    background-color: #67C0F2;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1.0;
+    gap: 10px;
+}
+
+#endorsement-input {
+    width: 317px;
+    height: 118px;
+    vertical-align: text-top;
+    resize: none;
+}
+
+.input {
+    border: none;
+    border-radius: 8px;
+    background-color: #444059;
+    color: #8F8F8F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding: 12px;
+    box-sizing: border-box;
+
+}
+
+.to-from-fields {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+
+#from-field {
+    min-width: 0;
+    width: auto;
+}
+
+#to-field {
+    min-width: 0;
+    width: auto;
+}
+
+#endorsements {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 317px;
+}
+
+article {
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #1B1924;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+header, footer {
+    font-weight: 700;
+}
